@@ -24,3 +24,6 @@ PROMPT='%% '
 export LSCOLORS=Exfxcxdxbxegedabagacad
 
 export EDITOR=vim
+
+# Still use emacs-style zsh bindings
+bindkey -e
