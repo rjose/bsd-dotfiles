@@ -21,4 +21,6 @@ autoload -U compinit
 compinit
 
 PROMPT='%% '
+export LSCOLORS=gxfxcxdxbxegedabagacad
 
+export EDITOR=vim
