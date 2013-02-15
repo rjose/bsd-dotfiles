@@ -35,7 +35,7 @@ hi Repeat          ctermfg=green	cterm=none
 hi Statement       ctermfg=blue
 hi Label           ctermfg=magenta	cterm=bold
 hi Operator        ctermfg=yellow
-hi Keyword         ctermfg=red		cterm=bold   
+hi Keyword         ctermfg=blue 	cterm=bold   
 hi StorageClass    ctermfg=yellow	cterm=bold
 hi Structure       ctermfg=magenta
 hi Typedef         ctermfg=blue
@@ -58,12 +58,11 @@ hi Folded          cterm=reverse 	ctermfg=cyan    ctermbg=black
 hi Search          ctermfg=red	    ctermbg=white	cterm=bold
 hi IncSearch       ctermfg=red	    ctermbg=white
 hi WarningMsg      ctermfg=red	    ctermbg=white
-hi Question        ctermfg=green    ctermbg=white	cterm=bold
+hi Question        ctermfg=white    ctermbg=green	cterm=bold
 hi Pmenu           ctermfg=black    ctermbg=white	cterm=bold
 hi PmenuSel        ctermfg=gray	    ctermbg=magenta 	cterm=bold
 hi Visual          ctermfg=red      ctermbg=grey	cterm=bold
 hi StatusLine ctermfg=blue	ctermbg=white
-"hi StatusLineNC    ctermfg=white    ctermbg=black	cterm=bold
 
 " Diff lines ---
 hi DiffLine        ctermbg=yellow
