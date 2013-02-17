@@ -67,9 +67,9 @@ hi StatusLine ctermfg=blue	ctermbg=white
 " Diff lines ---
 hi DiffLine        ctermbg=yellow
 hi DiffText        ctermfg=white
-hi DiffAdd         ctermfg=black      ctermbg=yellow
+hi DiffAdd         ctermfg=black      ctermbg=green
 hi DiffChange      ctermfg=black
-hi DiffDelete      ctermfg=black    ctermbg=blue
+hi DiffDelete      ctermfg=black    ctermbg=red
 "test
 
 " Specific for Vim script  --- 

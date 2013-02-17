@@ -27,3 +27,7 @@ export EDITOR=vim
 
 # Still use emacs-style zsh bindings
 bindkey -e
+
+echo
+fortune
+echo

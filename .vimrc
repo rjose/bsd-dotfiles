@@ -29,6 +29,7 @@ set shiftround                  "Round spaces to nearest shiftwidth multiple
 set nojoinspaces                "Don't convert spaces to tabs
 
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}\ %=%-16(\ L:%l/%L\ C:%c\ %)%P
+au BufNewFile,BufRead *.mixal set filetype=mix
 
 set laststatus=2
 au BufNewFile,BufRead *.ejs set filetype=html
